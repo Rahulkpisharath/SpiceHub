@@ -4,7 +4,7 @@ const Testimonials = () => {
 return (
     <div className='bg-violet-50'>
         <div className='max-w-7xl mx-auto px-4 py-12'>
-            <h2 className='text-2xl sm:text-3xl font-bold mb-12'> What's Our Customer Says</h2>
+            <h2 className='text-4xl font-bold mb-10 text-gray-900'> What's Our Customer Says</h2>
             <div id='testimonials'>
                 <div className='row people grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6'>
                     <div className='col-md-6 col-lg-4 item'>
@@ -16,8 +16,9 @@ return (
                                     </path>
                                 </svg>
                             </span>
-                            <p className='description my-4 text-xs'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <h5 className='text-xs font-medium name bold black'>- Ben Johnson</h5>
+                            <p className='description my-4 text-xs'>For export quality curcumin powder from India, Essenco is my first choice.</p>
+                            <h5 className='text-xs font-medium name bold black'>Catherine John (Omaha, USA)
+Herbal Oil Manufacturer</h5>
                         </div>
         
                     </div>
@@ -30,8 +31,9 @@ return (
                                     </path>
                                 </svg>
                             </span>
-                            <p className='description my-4 text-xs'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <h5 className='text-xs font-medium name bold black'>- Ben Johnson</h5>
+                            <p className='description my-4 text-xs'>A vendor with consistent quality, highly recommended. Associated with them since 2016.</p>
+                            <h5 className='text-xs font-medium name bold black'>Robert Mathew (London, United Kingdom)
+Manager, Tatva Spa</h5>
                         </div>
                         
                     </div>
@@ -44,8 +46,9 @@ return (
                                     </path>
                                 </svg>
                             </span>
-                           <p className='description my-4 text-xs'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <h5 className='text-xs font-medium name bold black'>- Ben Johnson</h5>
+                           <p className='description my-4 text-xs'>If you are looking for quality essential oils at cost-effective prices, these guys are good.</p>
+                            <h5 className='text-xs font-medium name bold black'>Dan Lewis (Brsibane, Australia)
+Entrepreneur, Trader</h5>
                         </div>
             
                     </div>
@@ -58,8 +61,9 @@ return (
                                     </path>
                                 </svg>
                             </span>
-                           <p className='description my-4 text-xs'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <h5 className='text-xs font-medium name bold black'>- Ben Johnson</h5>
+                           <p className='description my-4 text-xs'>Superior quality, no doubt about it, worth the import, we order every week. Associated since 2018.</p>
+                            <h5 className='text-xs font-medium name bold black'>Camelia Witt (New York, U.S.A)
+Business Owner, Spice Hub</h5>
                         </div>
             
                     </div>
