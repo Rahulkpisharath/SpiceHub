@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useProducts } from '../context/ProductContext';
 import { useCart } from '../context/CartContext';
-
+import Features from "./Features";
+const AppFeature = () => {
+  return<Features/>
+}
 const Shop = () => {
   const {
     filteredProducts,
@@ -53,13 +56,13 @@ const Shop = () => {
         
         </div>
       </div>
-
+      <AppFeature/>
       {/* Featured Products */}
-      {featuredProducts.length > 0 && (
+      {filteredProducts.length > 0 && (
         <div className="max-w-7xl mx-auto px-4 py-8 sm:py-12">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-6">Featured Products</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6">All Products</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            {featuredProducts.map(product => (
+            {filteredProducts.map(product => (
               <Link
                 key={product.id}
                 to={`/product/${product.id}`}

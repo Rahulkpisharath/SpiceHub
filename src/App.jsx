@@ -280,6 +280,7 @@ const AppFooter = () => {
   return <Appfooter />;
 };
 
+
 const AppFaq = () => {
   return <Faq />;
 };
@@ -299,13 +300,16 @@ function App() {
       <ProductProvider>
         <CartProvider>
           <div className="min-h-screen bg-gray-50">
+           
             <Navigation />
             <Routes>
+              
               <Route path="/" element={<Shop />} />
               {/* <Route path="/product/:id" element={<ProductPage />} /> */}
               {/* <Route path="/cart" element={<CartPage />} />
               <Route path="/admin" element={<AdminPage />} /> */}
             </Routes>
+         
             <WhyChooseUs onOpenForm={handleOpenForm} />
             <AppHappyCustomer />
             <AppFaq />

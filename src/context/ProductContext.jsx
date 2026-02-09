@@ -21,9 +21,9 @@ export const ProductProvider = ({ children }) => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [sortBy, setSortBy] = useState('featured');
 
-  useEffect(() => {
-    localStorage.setItem('spice-products', JSON.stringify(products));
-  }, [products]);
+  // useEffect(() => {
+  //   localStorage.setItem('spice-products', JSON.stringify(products));
+  // }, [products]);
 
   const categories = ['All', ...new Set(products.map(p => p.category))];
 
