@@ -317,7 +317,7 @@ function App() {
             <AppFooter />
 
             <a
-              href="https://wa.me/9846232948?text=Hello%20I%20need%20help"
+              href="https://wa.me/919846232948?text=Hello%20I%20need%20help"
               target="_blank"
               rel="noopener noreferrer"
               className="chat inline-flex items-center gap-3 rounded-xl bg-green-500 px-6 py-3 text-white font-semibold shadow-lg transition hover:bg-green-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-400"
